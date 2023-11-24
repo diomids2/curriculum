@@ -1,0 +1,147 @@
+$default_duration: .6s;
+
+@mixin keyframes($animationName) {
+    @-webkit-keyframes #{$animationName} {
+      @content;
+    }
+    @-moz-keyframes #{$animationName} {
+      @content;
+    }
+    @-o-keyframes #{$animationName} {
+      @content;
+    }
+    @keyframes #{$animationName} {
+      @content;
+    }
+}
+
+
+@mixin setAnimation($str, $delay: '.3s') {
+    -webkit-animation: #{$str};
+    -moz-animation: #{$str};
+    -o-animation: #{$str};
+    animation: #{$str};
+    -webkit-animation-delay: $delay;
+    -moz-animation-delay: $delay;
+    -o-animation-delay: $delay;
+    animation-delay: $delay;
+}
+
+
+@mixin radialGradientTrasition($name, $from, $to){
+    
+    @include keyframes(radialTrasition-#{$name}){
+
+        0%  { 
+            background: radial-gradient( circle,  $to 0% , $from 0% );
+            color: $to !important; 
+        }
+        20%  { background: radial-gradient( circle,  $to 20% , $from 20% )}
+        40%  { 
+            background: radial-gradient( circle,  $to 40% , $from 40% );
+            color: $from;
+        }
+        60%  { background: radial-gradient( circle,  $to 60% , $from 60% )}
+        80%  { background: radial-gradient( circle,  $to 80% , $from 80% )}
+        99% { 
+            background: radial-gradient( circle,  $to 100% , $from 100% );
+            color: $from !important;
+        }
+
+        100% {
+            color: initial;
+        }
+    }   
+
+    @include setAnimation('radialTrasition-#{$name} .5s cubic-bezier(0.6, -0.28, 0.735, 0.045)');
+
+} 
+
+
+
+
+@mixin boderRotateEfect($name, $from, $to){
+
+  $pxs: 1px;
+  @include keyframes(boderRotateEfect-#{$name}){
+
+      0% {
+        border: solid  $pxs $to;  
+      }
+
+      25%  { 
+        border-top: solid  $pxs $to;
+        border-left: solid  $pxs $to;
+        border-bottom: solid  $pxs $from;
+        border-right: solid  $pxs $from;
+      }
+
+
+      50%  { 
+        border-top: solid  $pxs $from;
+        border-left: solid  $pxs $to;
+        border-bottom: solid  $pxs $to;
+        border-right: solid  $pxs $from;
+      }
+
+
+      75%  { 
+        border-top: solid  $pxs $from;
+        border-left: solid  $pxs $from;
+        border-bottom: solid  $pxs $to;
+        border-right: solid  $pxs $to;
+      }
+
+      100%  { 
+        border-top: solid  $pxs $to;
+        border-left: solid  $pxs $from;
+        border-bottom: solid  $pxs $from;
+        border-right: solid  $pxs $to;
+      }
+     
+  }   
+
+  @include setAnimation('boderRotateEfect-#{$name} .8s cubic-bezier(0.6, -0.28, 0.735, 0.045) infinite ', 0);
+
+} 
+
+
+@mixin rotate($str){
+
+  @include keyframes(rotate){
+    0%  { transform: scale(1.1);}
+    100% { transform: rotate(0deg) scale(1); }
+  }
+  @include setAnimation(rotate #{$str});
+}
+
+
+
+
+@mixin scrollbar( $tumb1, $tumb2, $trak, $width:5px ) {
+
+  &::-webkit-scrollbar {
+    width: $width ;
+    max-height: 10px !important;
+  }
+
+  &::-webkit-scrollbar-track {
+      background: $trak !important;
+      border-radius: 0px !important;
+  }
+
+  &::-webkit-scrollbar-thumb {
+      background:$tumb1 !important;
+      border-radius: 5px !important;
+      transition-delay: .3s;
+      transition: all ease-in-out .8s !important;
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+      transition-delay: .3s !important;
+      transition: all ease-in-out .8s !important;
+      background:$tumb2 !important;
+      cursor: pointer !important;
+    }
+
+}
