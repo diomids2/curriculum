@@ -12,7 +12,7 @@ export default [
     */
     {
         empresa: 'Neves Digital',
-        cargo: 'Desenvolvedor FullStack e CEO',
+        cargo: 'DEV autônomo',
         periodo: 'Jul/2023 - Atualmente',
         descricao: [
           'Desenvolvedor Web',

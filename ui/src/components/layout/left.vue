@@ -8,12 +8,12 @@
         <h3><fontawesome class="icon" icon="address-book" /> Contatos</h3>
         <p class="link" ><a rel="noopener"  target="_blank" href="https://api.whatsapp.com/send?phone=5511954112580&text=Ol%C3%A1%20Claudiomir,%20vim%20pelo%20seu%20curr%C3%ADculo.">(11) 95411-2580  <fontawesome icon="mobile-alt" /> </a></p>
         <p class="link" ><a rel="noopener"  target="_blank" href="mailto:diomids2@hotmail.com">diomids2@hotmail.com <fontawesome icon="at" /></a></p>
+         <p class="link" ><a rel="noopener"  target="_blank" href="mailto:claudiomirneves@gmail.com">claudiomirneves@gmail.com <fontawesome icon="at" /></a></p>
     </div>
 
     <div class="item" >
         <h3><fontawesome class="icon" icon="network-wired" /> Social</h3>
         <p class="link" ><a rel="noopener"  target="_blank" href="https://www.linkedin.com/in/claudiomir-neves-de-araujo-078711209/"> linkedin.com/in/claudiomirneves  <fontawesome icon="link" /></a> </p>
-        <p class="link" ><a rel="noopener" title="Instagram da minha vida pessoal e dia dia e um pouco de codigo" target="_blank" href="https://www.instagram.com/diomisnow/"> instagram.com/diomisnow <fontawesome icon="link" /></a> </p>
 </div>
 
     <div class="item" >
@@ -38,14 +38,12 @@
         <p class="link" ><a rel="noopener"  target="_blank" href="https://www.sp.senai.br/consulta-certificado?qrcode=0007530/5830803">Segurança do Trabalho<fontawesome icon="link" /></a></p>
         <p class="link" ><a rel="noopener"  target="_blank" href="https://www.sp.senai.br/consulta-certificado?qrcode=0007534/5830803">Economia Circular<fontawesome icon="link" /></a></p>
     </div>
-
+<!-- 
     <div class="item" >
         <h3><fontawesome class="icon" icon="code-branch" />ProjetoAgencia Portfofolio</h3>
         <p class="link link-noprint" ><a rel="noopener"  target="_blank" href="https://nevesdigital.com.br/">Neves Digital Solution<fontawesome icon="link" /></a></p>
         <p class="link link-noprint" ><a rel="noopener"  target="_blank" href="https://claudiomir.nevesdigital.com.br/">Claudiomir Neves Page<fontawesome icon="link" /></a></p>
-        <p class="link-print" ><a rel="noopener"  target="_blank" href="https://github.com/basicis/basicis">https://github.com/basicis/basicis <fontawesome icon="link" /></a></p>
-        <p class="link-print" ><a rel="noopener"  target="_blank" href="https://github.com/basicis/core">https://bitbucket.org/basicis/core <fontawesome icon="link" /></a></p>
-    </div> 
+    </div> -->
 
 </div>
 <!-- end .left-->

@@ -32,7 +32,7 @@ import {mapState} from "vuex"
     },
     metaInfo: {
         title: 'Claudiomir Neves',
-        titleTemplate: '%s | Curriculum Vitae',
+        titleTemplate: '%s | Currículo',
         htmlAttrs: {
             lang: 'pt-Br',
             amp: true
@@ -66,13 +66,13 @@ import {mapState} from "vuex"
             {
                 property: 'og:title',
                 content: 'Home',
-                template: chunk => `${chunk} - Claudiomir Neves | Curriculum Vitae'`,
+                template: chunk => `${chunk} - Claudiomir Neves | Curriculo'`,
                 vmid: 'og:title'
             },
             {
                 property: 'og:title',
                 content: 'Home',
-                template: chunk => `${chunk} - Claudiomir Neves | Curriculum Vitae'`,
+                template: chunk => `${chunk} - Claudiomir Neves | Curriculo'`,
                 vmid: 'og:title'
             },
         ],

@@ -9,29 +9,27 @@
 
     <div class="item" >
         <h3><fontawesome icon="graduation-cap" /> Formação</h3>
-        <p>Superior Analise e Desenvolvimento de Sistema | <small>2023 (CURSANDO)</small></p>
         <p><a rel="noopener"  target="_blank" href="https://www.sp.senai.br/curso/tecnico-em-desenvolvimento-de-sistemas/99222"> Técnico em Desenvolvedor de Sistema | SENAI | <small>2019-2021</small><fontawesome icon="link" /></a></p>
     </div>
 
     <div class="item" >
         <h3><fontawesome :icon="['fab', 'leanpub']"  /> Conhecimentos</h3>
         <ul>
-            <li>Font-End
-                <p>HTML, CSS com pré compilador Sass e Frameworks Bootstrap, JavaScript e Frameworks como VueJs, React.JS</p>
-            </li>
-            <li>Back-End
-                <p>PHP com Wordpress, ASP.Net MVC em C#, JavaSpring Boot</p>
+            <li>Front-End
+                <p>HTML, CSS, JavaScript e Frameworks como VueJs, React.JS</p>
             </li>
             <li>Banco de Dados 
                 <p>SQL Server e Mysql </p>
             </li>
             <li>Ferramentas
-                <p>Git, Npm, Trello</p>
+                <p>Git, Npm e Trello</p>
             <li>Web Designer
                 <p>Wordpress com Elementor Pro</p>
             </li>
             <li>Designer
-                <p>UX/UI, Figma, Photoshop avançado, </p>
+                <p>UX/UI, Figma e Photoshop avançado</p>
+            <li>Informatica em geral
+                <p>Microsoft Office, Recuperação de dados (Backup), Solução de problemas de hardware e software, redes, administração de sistemas, reparos, suporte técnico </p>
         
             </li>
         </ul>              
